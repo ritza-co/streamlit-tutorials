@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
-DATA_SOURCE = "./data/bern_rentals.csv"
+DATA_SOURCE = "https://raw.githubusercontent.com/ritza-co/streamlit-tutorials/main/visualise-rent-prices/data/bern_rentals.csv"
           
 
 @st.cache
